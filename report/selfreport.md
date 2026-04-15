@@ -171,3 +171,14 @@ https://www.kaggle.com/datasets/sumanthnimmagadda/student-spending-dataset
 
 🍽️ Module 4: Food & Nutrition Analyzer
 https://www.kaggle.com/datasets/trolukovich/nutritional-values-for-common-foods-and-products
+
+
+worked on the module 1 dataset and created a report sugggession for each student based on their sleep, study how, result and many other colums.
+-EDA
+-Linear Regression
+-Recommendation System
+
+
+learned how to use jupiter notebook as well during this project.
+
+
