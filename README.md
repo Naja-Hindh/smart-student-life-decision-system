@@ -28,6 +28,24 @@ To provide intelligent, data-driven recommendations that help students make bett
 * Regression Models
 * Decision Support System
 
+## Study module analysis
+
+### 🧠 Key Insights
+- Study hours positively impact performance
+- Screen time negatively affects scores
+- Optimal sleep range is 6–8 hours
+- Previous GPA is the strongest predictor
+### 💡 Unique Feature
+A rule-based decision system provides personalized suggestions for improving lifestyle and academic outcomes.
+### 🛠️ Technologies Used
+- Python
+- Pandas, NumPy
+- Matplotlib, Seaborn
+- Scikit-learn
+### 🚀 Output
+- Predicts student exam score
+- Provides improvement suggestions
+
 
 ## 🛠️ Technologies
 
