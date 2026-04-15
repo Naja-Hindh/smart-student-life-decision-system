@@ -8,6 +8,9 @@ Smart Life Decision System (Study + Health + Finance + Food)
 
 ---------------------------------------------------------------------------------------------------------------------------
 
+### 🔷 System Architecture
+
+```
 🌐 Website (Streamlit App)
             |
       📊 Master Dataset
@@ -32,6 +35,7 @@ Prediction    Insight        Insight           Insight
      🧠 Combined Decision Engine
             |
    🎯 Final Recommendations to User
+```
 
 ---------------------------------------------------------------------------------------------------------------------------
 
