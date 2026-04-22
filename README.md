@@ -168,6 +168,6 @@ The dashboard is based on the same processed dataset used for statistical analys
 ---
 
 ## 🙏 Acknowledgement
-Special thanks to **Dr. Karandeep Kaur** and **Dr. Mrinalini Rana** for her guidance and support throughout this project.
+Special thanks to **Dr. Karandeep Kaur** and **Dr. Mrinalini Rana** for their guidance and support throughout this project.
 
 ## ⭐ If you found this useful, consider giving it a star!
