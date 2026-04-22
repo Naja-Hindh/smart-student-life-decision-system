@@ -1,60 +1,173 @@
-# smart-student-life-decision-system
-A modular data-driven system that analyzes student lifestyle patterns (study, health, spending, and nutrition) to provide intelligent decision-making insights and recommendations.
+# 📊 Student Lifestyle & Academic Performance Analysis (Python)
 
-# Smart Student Life Decision System
+## 🚀 Project Overview
+This project explores how various student lifestyle factors influence academic performance using statistical analysis and machine learning techniques in Python.
 
-## 📌 Overview
+The analysis is based on a real-world dataset sourced from **Kaggle**, focusing on identifying significant and non-significant factors affecting exam scores.
 
-This project is a modular data-driven system designed to analyze and improve different aspects of student life including study habits, health, spending, and nutrition.
+---
 
-## 🎯 Objective
+## 🎯 Objectives
+- Analyze the relationship between lifestyle factors and academic performance  
+- Apply statistical techniques to validate hypotheses  
+- Build a regression model to predict exam scores  
+- Derive meaningful, data-driven insights  
 
-To provide intelligent, data-driven recommendations that help students make better daily life decisions.
+---
 
-## 🧩 Modules
+## 📂 Dataset
+- Source: **Kaggle – Student Habits and Academic Performance Dataset**  
+- The dataset includes:
+  - study_hours_per_day  
+  - exam_score  
+  - stress_level  
+  - sleep_hours  
+  - diet_quality  
+  - financial_status  
+  - health_score  
+  - monthly_spending  
 
-* 📚 Study & Productivity Analysis
-* 🏥 Health & Lifestyle Analysis
-* 💰 Spending & Saving Analysis
-* 🍽️ Food & Nutrition Analysis
+- Multiple datasets were merged into a final dataset using `student_id`.
 
-## ⚙️ Features
+---
 
-* Data Cleaning & Preprocessing
-* Exploratory Data Analysis (EDA)
-* Statistical Data Analysis (SDA)
-* Outlier Detection (IQR, Z-score methods)
-* Outlier Handling (removal, capping, transformation)
-* Regression Models
-* Decision Support System
+## 🛠️ Tools & Technologies
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
+- SciPy  
 
-## Study module analysis
+---
 
-### 🧠 Key Insights
-- Study hours positively impact performance
-- Screen time negatively affects scores
-- Optimal sleep range is 6–8 hours
-- Previous GPA is the strongest predictor
-### 💡 Unique Feature
-A rule-based decision system provides personalized suggestions for improving lifestyle and academic outcomes.
-### 🛠️ Technologies Used
-- Python
-- Pandas, NumPy
-- Matplotlib, Seaborn
-- Scikit-learn
-### 🚀 Output
-- Predicts student exam score
-- Provides improvement suggestions
+## 🔄 Data Preprocessing
+- Handling missing values (median & mode imputation)  
+- Data type correction and encoding  
+- Feature engineering (performance levels, group categorization)  
+- Outlier detection using IQR and boxplots  
+- Outliers retained to preserve real-world variability  
 
+---
 
-## 🛠️ Technologies
+## 📊 Exploratory Data Analysis (EDA)
+- Summary statistics  
+- Distribution analysis  
+- Correlation analysis  
+- Scatter plots for relationship visualization  
+- Outlier detection and interpretation  
 
-* Python (Pandas, NumPy, Matplotlib, Scikit-learn)
-* Streamlit
-* Power BI
+---
 
-## 🚀 Future Scope
+## 📈 Statistical Analysis
 
-* Integration of all modules into a unified dashboard
-* Real-time recommendations
-* Advanced machine learning models
+### 1. Linear Regression
+- Predicted exam scores using:
+  - study hours  
+  - stress level  
+  - sleep hours  
+
+### 2. T-Test (Study Hours)
+- Compared above-average vs below-average study groups  
+
+### 3. T-Test (Stress Level)
+- Compared low-stress vs high-stress groups  
+
+### 4. Chi-Square Test (Diet vs Performance)
+- Tested association between diet quality and performance category  
+
+### 5. T-Test (Financial Status)
+- Compared saving vs overspending students  
+
+---
+
+## 🔍 Key Insights
+- 📈 Study hours have a strong positive impact on exam performance  
+- 📉 Stress level significantly reduces academic performance  
+- 😴 Sleep shows a moderate positive effect  
+- 🍽️ Diet quality shows limited association  
+- 💰 Financial status has no strong direct impact  
+
+---
+
+## 📌 Conclusion
+The analysis highlights that **study habits and stress levels** are the most influential factors affecting academic performance. Other lifestyle factors play a secondary or indirect role.
+
+---
+
+## 📎 Project Structure
+project/
+│
+├── data/
+│ ├── raw/
+│ └── processed/
+│
+├── notebooks/
+│
+├── reports/
+│
+└── README.md
+
+---
+
+## 📚 References
+- Kaggle Dataset  
+- Python Documentation  
+- Scikit-learn Documentation  
+
+---
+
+## 💡 Future Scope
+- Apply advanced machine learning models  
+- Use larger and more diverse datasets  
+- Build real-time prediction systems  
+- Explore deeper causal relationships  
+
+---
+
+## 📊 Dashboard Overview
+
+To complement the statistical analysis, an interactive dashboard was designed to visually represent key insights from the dataset. The dashboard provides an intuitive way to explore relationships between lifestyle factors and academic performance.
+
+---
+
+## 🎯 Dashboard Objectives
+- Visualize key relationships such as study hours vs exam score  
+- Identify patterns and trends in student behavior  
+- Provide an interactive way to explore data insights  
+- Support findings from statistical analysis with visual evidence  
+
+---
+
+## 📈 Key Visualizations
+
+- **Scatter Plot:** Study Hours vs Exam Score (with trend line)  
+- **Scatter Plot:** Stress Level vs Exam Score  
+- **Bar Chart:** Average Exam Score by Study Groups  
+- **Box Plot:** Exam Score distribution across Stress Levels  
+- **Bar Chart:** Performance comparison by Financial Status  
+
+---
+
+## 🔍 Key Insights from Dashboard
+- Students who study more tend to score higher  
+- Higher stress levels are associated with lower performance  
+- Performance differences between financial groups are minimal  
+- Data distribution shows variability across different lifestyle factors  
+
+---
+
+## 🧠 Purpose of Dashboard
+The dashboard enhances the analytical findings by providing a visual and interactive representation of the data. It helps in better understanding patterns that may not be immediately obvious through statistical outputs alone.
+
+---
+
+## 📌 Note
+The dashboard is based on the same processed dataset used for statistical analysis, ensuring consistency between visual insights and analytical results.
+---
+
+## 🙏 Acknowledgement
+Special thanks to **Dr. Karandeep Kaur** and **Dr. Mrinalini Rana** for her guidance and support throughout this project.
+
+## ⭐ If you found this useful, consider giving it a star!
