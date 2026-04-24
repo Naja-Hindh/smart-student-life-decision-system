@@ -98,15 +98,25 @@ The analysis highlights that **study habits and stress levels** are the most inf
 
 ## 📎 Project Structure
 project/
+
 │
+
 ├── data/
+
 │ ├── raw/
+
 │ └── processed/
+
 │
+
 ├── notebooks/
+
 │
+
 ├── reports/
+
 │
+
 └── README.md
 
 ---
